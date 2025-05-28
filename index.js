@@ -76,7 +76,8 @@ async function start() {
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: Browsers.macOS('Desktop'),
+            browser: Browsers.macOS("Firefox"),
+            syncFullHistory: true,
             auth: state,
             getMessage: async (key) => {
                 if (store) {
