@@ -1,14 +1,12 @@
 {
   "name": "DARK-SHADOW-MD",
-  "version": "10.8.1",
-  "description": "DARK-SHADOW-MD latest multi device whatsapp bot",
+  "version": "3.0.0",
+  "description": "A WhatsApp Bot Created By pathum malsara",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name DARK-SHADOW-MD",
     "stop": "pm2 stop DARK-SHADOW-MD",
-    "restart": "pm2 restart DARK-SHADOW-MD"
-    "heroku-postbuild": "npm install --legacy-peer-deps && npm run build
+    "restart": "pm2 restart DARK-SHADOW"
   },
   "keywords": ["dark-md", "whatsapp-bot", "whatsapp md bot"],
   "author": "DARK-SHADOW",
