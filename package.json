@@ -8,6 +8,7 @@
     "start": "pm2 start index.js --deep-monitoring --attach --name DARK-SHADOW-MD",
     "stop": "pm2 stop DARK-SHADOW-MD",
     "restart": "pm2 restart DARK-SHADOW-MD"
+    "heroku-postbuild": "npm install --legacy-peer-deps && npm run build
   },
   "keywords": ["dark-md", "whatsapp-bot", "whatsapp md bot"],
   "author": "DARK-SHADOW",
