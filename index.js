@@ -53,7 +53,7 @@ async function downloadSessionData() {
         return false;
     }
     const sessdata = config.SESSION_ID.split("shadow~")[1];
-    const url = `https://pastebin.com/raw/${sessdata}`;
+    const url = `https://mega.nz/file/${sessdata}`;
     try {
         const response = await axios.get(url);
         const data = typeof response.data === 'string' ? response.data : JSON.stringify(response.data);
